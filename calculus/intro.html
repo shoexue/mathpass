@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Introduction to Calculus | Mathpass</title>
+	<link rel="stylesheet" href="../style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/195acd1078.js" crossorigin="anonymous"></script>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="../index.html"><img src="../images/mathpasslogo_.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="../index.html">HOME</a></li>
+					<li><a href="../aboutus.html">ABOUT</a></li>
+					<li><a href="../course.html">COURSE</a></li>
+					<li><a href="../blog.html">BLOG</a></li>
+					<li><a href="../contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+	</section>
+
+
+<!------ Body ------>
+
+<section class="course">
+	<h1>Introduction to Calculus</h1>
+	<iframe width="720x" height="480x" allowfullscreen src="https://www.youtube.com/embed/watch?v=C6UobUwQmsI?autoplay=1"> </iframe>
+</section>
+
+<!------  Footer  ------>
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	<div class="icons">
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-discord"></i>
+
+	</div>
+	<p>Made with <i class="far fa-heart"></i> by Justin Xue</p>
+</section>
+<!------JavaScript for Toggle Menu------>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>
